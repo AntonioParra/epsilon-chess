@@ -5,8 +5,6 @@ services:
     container_name: epsilon-project-kako-chess
     build:
       dockerfile: Dockerfile
-    ports:
-      - "20002:80"
     networks:
       - epsilon-network
 
